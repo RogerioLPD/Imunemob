@@ -20,6 +20,7 @@ import Adulto from "../screens/Adulto";
 import Gestante from "../screens/Gestante";
 import Idoso from "../screens/Idoso";
 import Ocupacional from "../screens/Ocupacional"
+import VacinasEmpresa from "../screens/VacinasEmpresa";
 
 
 
@@ -41,6 +42,7 @@ const Main = () => {
       <MainStack.Screen name="Idoso" component={Idoso} />
       <MainStack.Screen name="Ocupacional" component={Ocupacional} />
       <MainStack.Screen name="SecondScreen" component={SecondScreen} />
+      <MainStack.Screen name="VacinasEmpresa" component={VacinasEmpresa} />
     </MainStack.Navigator>
   );
 };
